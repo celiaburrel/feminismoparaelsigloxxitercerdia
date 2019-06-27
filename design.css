@@ -6,38 +6,38 @@ body {
   font-family: "Times New Roman", Times, serif;
       text-align:center;
       
-        border: 1px solid blanchedalmond;
-        outline-style: solid;
-        outline-color: blanchedalmond;
+        border: 1px double transparent;
+        outline-style: dotted;
+        outline-color: violet;
       }
       
-    }
-  }
+    
 
 
+ h2{
 
-  h2 {
-    text-align: center;
-    color:	#663399;
-  }
+  font-family: "Times New Roman", Times, serif;
+  text-align:center;
+  color: 	#9932CC;
+ }
 
+.black {
 
+color: black;
+}
 
  body {
     margin-top: 10%;
     margin-bottom: 10%;
     margin-right: 10%;
-    margin-left: 10%;
+    margin-left:10%;
   }
 
-simonedebeauvoir {
+.simonedebeauvoir {
 align-content: left;
 
   }
 
-share {
-    background-image: url("paper.gif");
-  }
 
  
   
@@ -53,14 +53,16 @@ share {
   color:black;
 
 }
+.blanco{
 
+  color:#A9A9A9;
+}
 .row-nav{
   font-family: "Times New Roman", Times, serif;
-  color:#A9A9A9;
+  border: 1px solid #A9A9A9 ;
 
-  background-blend-mode: hard-light
+  background-blend-mode: hard-light;
 }
-
 
 
 .widget-area.blank {
@@ -159,7 +161,7 @@ share {
   cursor: pointer;
   }
   .status-upload ul > li > a:hover {
-  background: none repeat scroll 0 0 #9932CC;
+  background: none repeat scroll 0 0 #606060;
   color: #fff;
   }
   .status-upload form button {
@@ -179,9 +181,15 @@ share {
   padding: 6px 15px;
   }
   .dropdown > a > span.green:before {
-  border-left-color:#9932CC;
+  border-left-color: violet;
   }
   .status-upload form button > i {
   margin-right: 7px;
   }
-  
+ 
+.btn-ttc {
+
+color: violet;
+background-color: violet ;
+
+}
